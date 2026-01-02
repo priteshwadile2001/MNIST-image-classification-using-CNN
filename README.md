@@ -24,6 +24,15 @@ The model is trained on the **MNIST handwritten digits dataset** to classify dig
 - OpenCV (optional)
 
 ---
+## Simple Explanation
+
+- This program works with images of handwritten numbers.
+- It uses many images to learn how each number looks.
+- Before training, the images are cleaned and resized so the computer can understand them.
+- The program trains a model to recognize numbers from 0 to 9.
+- After training, it checks how well the model works.
+- Finally, it selects one image and displays both the predicted number and the actual number.
+
 
 ## ⚠️ Python Version Requirement
 TensorFlow is compatible with **Python 3.10 (64-bit)**.
@@ -43,5 +52,3 @@ python image_classification.py
 
 Step 2: Run the project
 python main.py
-
-
