@@ -48,7 +48,7 @@ py -3.10 -m venv venv
 venv\Scripts\activate
 
 Step 1: Install from requirements.txt
-python image_classification.py
+pip install -r requirements.txt
 
 Step 2: Run the project
 python main.py
